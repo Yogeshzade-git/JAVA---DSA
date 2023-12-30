@@ -29,7 +29,7 @@ public class superKeyword {
 
        // A a = new A();
         B b = new B();
-        System.err.println();
+        System.out.println();
 
         B b1 = new B(3); // to call parameterized constructor explicitly
         

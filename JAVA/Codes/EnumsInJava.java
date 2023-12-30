@@ -29,7 +29,6 @@ public class EnumsInJava {
          // we can traverse th eenum with help of for loop 
          for(Status e : ss){        // e is of type Status
             System.out.println(e + " : " + e.ordinal());   // here we can iterate the enum with there index also by help of  ordinal method
-         }
-
+         } 
     }
 }

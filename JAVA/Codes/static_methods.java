@@ -26,9 +26,9 @@ class mobilephone1{
 public class static_methods {
     public static void main(String[] args) {     // So, why we write main as static method - 
                                                  //so if we not write it as a static method then it needs to create a object of class in which it resides but 
-                                                 //we know tha ain methos is a entry point to the execution in java - 
+                                                 //we know that main method is a entry point to the execution in java - 
                                                  //so if the execution will not start then how does a object will get created
-                                                 // -- so that's wht we uses a mai method as static method 
+                                                 // -- so that's wht we uses a main method as static method 
         
         mobilephone1 mph1 = new mobilephone1();
         mph1.prize = 2300;
