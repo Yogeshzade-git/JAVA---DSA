@@ -1,6 +1,6 @@
 
 interface Computer3{
-    void code();  // bydefault  final & abstract
+    void code();  // bydefault  public & abstract
 }
 
 class Laptop implements Computer3{

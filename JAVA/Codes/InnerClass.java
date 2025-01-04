@@ -1,7 +1,7 @@
 
 class G {  // outer main class    contains inner class
 
-    int num1 = 34; 
+    private int num1 = 34; 
     int num2 = 17;
 
     public void show(){
