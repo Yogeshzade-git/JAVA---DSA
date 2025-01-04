@@ -5,13 +5,13 @@ interface S{   // interface declaration
 
     // we can use variables in interface but they are bydefault "final" and "static" in nature 
 
-    void show();   // final & static  bydefault
-    void config();  // final & static  bydefault
+    void show();   // publlic & abstract  bydefault
+    void config(); // publlic & abstract  bydefault
 
     // In interface the variables are are static ad final 
 
-    int age = 20;
-    String name= "Yogesh";
+    int age = 20;           // final & static  bydefault
+    String name= "Yogesh";   // final & static  bydefault
 
 }
 

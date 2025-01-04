@@ -17,6 +17,7 @@ public class ComparatorInJavaCollections{
                                 // so here i will  write my custom sorting logic with help of "Comparator Interface"
 
         Comparator<Integer> com = new Comparator<Integer>() {   //when we want to apply the custom sorting logic we can appply a commaprator interafe technique
+            @Override
             public int compare(Integer n1, Integer n2){
                 if(n1%10 > n2%10)
                 return 1; 

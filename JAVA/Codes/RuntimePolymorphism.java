@@ -1,4 +1,4 @@
-//This is a code for understanding Dynamic Memory Dispatch
+//This is a code for understanding Dynamic method Dispatch
 
 
 // class Computer {

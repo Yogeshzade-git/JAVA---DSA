@@ -23,12 +23,12 @@ public class jaggedArray{
 
             System.out.println();
 
-        for(int n [] : arr){
-            for(int elem : n ){                         // By Using Advanced for loop (For Each Loop)
-                System.out.print(elem + " ");
-            }
-            System.out.println();
+       for(int a[] : arr){
+        for(int n : a){
+            System.out.print(n + " ");
         }
+        System.out.println();
+       }
 
     }
 }

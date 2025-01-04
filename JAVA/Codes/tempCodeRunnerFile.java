@@ -1,4 +1,2 @@
-arrque.add(23);
-        arrque.add(54);
-        arrque.add(1);
-        arrque.add(643);
+ Class.forName("mobilephone");   // this will loads class even if class objects are not created   
+        //                                             // it will show output --->   Inside the Static Block    <-- only

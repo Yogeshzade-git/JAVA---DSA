@@ -7,7 +7,7 @@ class Vehicle{  // Parent  Class
 
 }
 
-class Bike{  // Child Class
+class Bike extends Vehicle{  // Child Class
 
     /// In method Overridingthe method name and the number and type of parameter should be same 
 
@@ -21,11 +21,11 @@ class Bike{  // Child Class
 public class MethodOverriding{
     public static void main(String[] args) {
 
-        Bike b = new Bike();
-        b.run();        // o/p ---->   Bike running !!
+        Vehicle v = new Bike();  //Dynamic Method Dispatch
+        v.run();        // o/p ---->   Bike running !!
         
     }
 
-    // JAVA doesn't supports the multiple inheritance  --> we used packages for solving that issue
+    // JAVA doesn't supports the multiple inheritance  --> we used interface for solving that issue
 
 }

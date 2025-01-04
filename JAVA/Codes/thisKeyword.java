@@ -4,6 +4,7 @@
 class car{
     private int regnum;
     private String model;
+
     public int getRegnum() {
         return regnum;
     }
@@ -18,7 +19,7 @@ class car{
     // }
 
     public void setRegnum(int regnum, car c) {   // it will work by passing object of class to specify that its a instance variable 
-        c.regnum = regnum;                               // But java provides a fuctionality of " this " keyword - it targets the instance variable o class
+        c.regnum = regnum;                               // But java provides a fuctionality of " this " keyword - it targets the instance variable of class
     }
 
     public void setRegnum(int regnum) {

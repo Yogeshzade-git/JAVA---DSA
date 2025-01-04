@@ -39,7 +39,7 @@ public class static_block {
         mobilephone mph1 = new mobilephone();
         mph1.prize = 2300;
         mph1.brand = "Samsung";
-        //mobilephone.name= "smartphone";  <-- this will make name="smartphonme or every object o this class"
+        //mobilephone.name= "smartphone";  <-- this will make name="smartphonme for every object of this class"
 
         mobilephone mph2 = new mobilephone();
 
@@ -47,8 +47,8 @@ public class static_block {
         mph2.print();
 
 
-        // Class.forName("mobilephone");   // this will loads class even if class objects are not created   
-        //                                             // it will show output --->   Inside the Static Block    <-- only
+        //Class.forName("mobilephone");   // this will loads class even if class objects are not created   
+                                                    // it will show output --->   Inside the Static Block    <-- only
 
     }
 }

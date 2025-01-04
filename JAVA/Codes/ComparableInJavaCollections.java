@@ -54,3 +54,7 @@ public class ComparableInJavaCollections {
  
     }
 }
+
+class B extends Object{
+
+}

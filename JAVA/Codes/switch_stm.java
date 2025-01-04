@@ -1,7 +1,7 @@
 public class switch_stm {
     public static void main(String[] args) {
         
-        int ch=56;
+        int ch=5;
 
         switch(ch){
             case 1:

@@ -29,6 +29,15 @@ public class TwoDarray {
             System.out.println();
         }
 
+        System.out.println();
+
+        for(int i=2; i>=0; i--){
+            for(int j=4; j>=0; j--){
+                System.out.print(arr[i][j]+ " ");
+            }
+            System.out.println();
+        }
+
  
     }
 }

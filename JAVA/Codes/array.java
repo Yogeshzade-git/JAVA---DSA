@@ -1,6 +1,13 @@
 public class array {
 public static void main(String[] args) {
 
+    int arr1[] = {2, 3, 4, 56, 3, 5 };
+
+    for(int a : arr1){
+        System.out.print(a + " " );
+    }
+ 
+
     int arr[] = new int[4];
 
     // arr[0] = 3;
@@ -21,5 +28,15 @@ public static void main(String[] args) {
         System.out.println(arr[i]);
     }
     
+
+    String sarr[] = new String[26];
+
+    sarr[0] = "YOGESH";
+
+    for(int i=0; i<sarr.length -1; i++){
+        System.out.print(sarr[i] + " ");
+    }
+
+
 }
 }

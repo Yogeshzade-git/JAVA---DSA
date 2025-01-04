@@ -21,7 +21,7 @@ interface MultiParaInterface{      // multiple parameter   // with returntype va
 public class LambdaExpression {
     public static void main(String[] args) {
 
-        // NoParaInterface npi = new NoParaInterface() {     // using inner class
+        // NoParaInterface npi = new NoParaInterface() {     // using  Anonymousinner class
         //     public void show(){
         //         System.out.println("The No Parameter Functional Interface");
         //     }
