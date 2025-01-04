@@ -6,6 +6,17 @@
 //  This type of class known as a "Concrete class"
 // we can't create a "object" of abstract class, so to access its methods we have to create a object of "Concrete class" with abstact class as reference variable
 
+// Abstraction is a process of hiding implementation details and exposing only the functionality to the user. In abstraction, 
+//we deal with ideas and not events. This means the user will only know “what it does” rather than “how it does”.
+
+// There are two ways to achieve abstraction in Java:
+
+// Abstract class (0 to 100%)
+// Interface (100%)
+
+// Real-Life Example: A driver will focus on the car functionality (Start/Stop -> Accelerate/ Break), 
+//he/she does not bother about how the Accelerate/ brake mechanism works internally. And this is how the abstraction works.
+
 
 
 abstract class car{      // abstract class
